@@ -35,6 +35,19 @@ export default function Home() {
       <Head>
         <title>Vester - Create token vesting contracts</title>
         <link rel="icon" href="/favicon.png" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:creator" content="@lewifree" />
+        <meta property="og:url" content="https://vester.projects.sh" />
+        <meta property="og:title" content="Vester" />
+        <meta
+          property="og:description"
+          content="A simple way to create, view & manage vesting contracts from the browser."
+        />
+        <meta
+          property="og:image"
+          content="https://vester.projects.sh/image.png"
+        />
       </Head>
 
       <Flex
