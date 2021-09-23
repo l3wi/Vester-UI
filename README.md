@@ -4,6 +4,8 @@ Simple UI to create and manage OpenZeppelin Vesting contracts from the Browser.
 
 ![](https://i.imgur.com/vDSQkIU.png)
 
+See it live at: [vester.projects.sh](https://vester.projects.sh)
+
 ## Get started:
 
 First, run the development server:
