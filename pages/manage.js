@@ -142,8 +142,9 @@ export default function Manage() {
               bg={"white"}
               width={{ base: "100%", md: "600px" }}
               flexDirection="column"
+              key={"vester" + i}
             >
-              <Flex flexDirection="column" key={"vester" + i}>
+              <Flex flexDirection="column">
                 <Flex
                   w="100%"
                   justifyContent="space-between"
