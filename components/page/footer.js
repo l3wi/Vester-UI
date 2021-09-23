@@ -24,7 +24,7 @@ const Footer = () => {
             vester.projects.sh
           </Text>
           <Text fontSize="sm" color="gray.500">
-            A UI for OZ's TokenVesting.sol
+            {`A UI for OZ\'s TokenVesting.sol`}
           </Text>
         </Box>
         <Box>
