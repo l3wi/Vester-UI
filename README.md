@@ -1,6 +1,6 @@
-# Web3 Starter
+# Vester
 
-Simple web3 starter based on Next.js & Chakra-UI w/ UseWallet for Web3 support
+Simple UI to create and manage OpenZeppelin Vesting contracts from the Browser.
 
 ## Get started:
 
@@ -11,24 +11,6 @@ npm run dev
 # or
 yarn dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Layout:
-
-- `components` - UI components
-- `contexts` - App wide data contexts: wallet, alerts etc.
-- `contracts` - Contract ABIs and addresses
-- `hooks` - Various hooks
-- `pages` - Routing and base pages
-- `public` - Static objects
-- `utils` - Small functions
 
 ## Learn More
 
