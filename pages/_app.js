@@ -21,7 +21,7 @@ const theme = {
         lineHeight: "tall"
       },
       a: {
-        color: "teal.500"
+        color: "blue.500"
       }
     }
   }
