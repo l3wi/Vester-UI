@@ -1,6 +1,8 @@
-# Vester
+# 🦺 Vester
 
 Simple UI to create and manage OpenZeppelin Vesting contracts from the Browser.
+
+![](https://i.imgur.com/vDSQkIU.png)
 
 ## Get started:
 
