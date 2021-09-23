@@ -50,7 +50,7 @@ import {
   getVesterToken
 } from "../../utils/vester"
 import { commas } from "../../utils/helpers"
-import { ethers } from "ethers"
+import { ethers, utils } from "ethers"
 import { format, fromUnixTime, add } from "date-fns"
 
 export default function Manage() {
@@ -103,7 +103,7 @@ export default function Manage() {
         const releaseHash = await releaseTokens(
           address,
           focusedToken.address,
-          value
+          utils.parseEther(value.toString()).toString()
         )
         watchTx(releaseHash)
 
