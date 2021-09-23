@@ -3,7 +3,12 @@ import React from "react"
 
 const links = [
   {
-    label: "by lewi",
+    label: "github",
+    href: "https://github.com/l3wi/Vester-UI",
+    isExternal: true
+  },
+  {
+    label: "lewi",
     href: "https://twitter.com/lewifree",
     isExternal: true
   }
